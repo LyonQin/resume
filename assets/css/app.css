@@ -1,0 +1,159 @@
+/* Write your styles */
+body {
+    background: #dbe4ed;
+}
+
+.resume {
+    max-width: 940px;
+    background: #fff;
+    margin: 46px auto 0;
+}
+.resume-head {
+    height: 320px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: url(../img/head.png) center no-repeat;
+}
+.resume-head-title {
+    padding-top: 90px;
+    font-size: 34px;
+    color: #fff
+}
+.resume-head-title-info {
+    padding-top: 10px;
+    font-size: 24px;
+    color: #24caf4;
+}
+.resume-head-title-ico {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 50%;
+    bottom:-110px;
+    margin-left: -110px;
+    border: 6px solid #23cbf2;
+    border-radius: 50%;
+}
+.resume-head-title-ico img {
+    width: 100%;
+}
+
+.resume-info {
+    padding: 120px 100px 120px;
+    text-align: center;
+}
+.resume-name {
+    font-size: 41px;
+    font-weight: bold;
+}
+.resume-info-centent {
+    font-size: 16px;
+    padding: 40px 0;
+}
+.resume-ico-block {
+    padding: 12px 0;
+        text-align: left;
+}
+.resume-ico {
+    width: 26px;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+
+    vertical-align: middle;
+}
+
+.am-icon-btn.resume-ico-5eb95e {
+    background: #5eb95e;
+}
+
+.am-icon-btn.resume-ico-f27410 {
+    background: #f27410;
+}
+.am-icon-btn.resume-ico-8e5cd5 {
+    background: #8e5cd5;
+}
+
+.resume-skill {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.resume-impression {
+    width: 100%;
+    text-align: left;
+}
+.resume-impression .resume-impression-content {
+    padding: 12px 24px;
+    padding-bottom: 24px;
+}
+.resume-impression .am-badge {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.resume-work {
+    width: 100%;
+}
+
+
+.am-titlebar-default {
+    margin: 0;
+    margin-bottom: 12px;
+    
+}
+.am-titlebar-default .am-titlebar-title {
+        
+        color: #333333;
+        font-weight: normal;
+        font-size: 18px;
+}
+.am-titlebar-default .am-titlebar-title:before {
+    border-left: 3px solid #3bb4f2;
+}
+
+.am-progress {
+    margin-bottom: 0;
+}
+
+.am-list>li {
+    border: none;
+    text-align: left;
+}
+
+.am-list-thumb img {
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.am-list-main {
+
+}
+
+.resume-works {
+    width: 100%;
+}
+.am-list-news-default .am-list .am-list-item-text {
+    max-height: inherit;
+    -webkit-line-clamp: inherit;
+    overflow: visible;
+    font-size: 14px;
+    line-height: 24px;
+}
+@media only screen and (max-width: 640px) {
+    .resume-info {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .am-list-news-default .am-list-item-thumb-left .am-list-thumb{
+        max-height: 105px;
+        margin-bottom: 20px;
+    }
+    .am-list-thumb img {
+        max-width: 105px;
+        
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+}
